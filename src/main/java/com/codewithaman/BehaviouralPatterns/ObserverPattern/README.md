@@ -1,4 +1,4 @@
-# 🎯 **Observer Design Pattern — At a Glance**
+# 🎯 **Observer Design Pattern**
 
 | 🔧                     | Details                                                                                                       |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -12,13 +12,13 @@
 # 📊 **UML Diagram**
 
 ```plaintext
- ┌──────────────────────┐
- │      Subject         │
- ├──────────────────────┤
- │ + register(observer) │
+ ┌────────────────────────┐
+ │      Subject           │
+ ├────────────────────────┤
+ │ + register(observer)   │
  │ + unregister(observer) │
- │ + notifyObservers()   │
- └──────────────────────┘
+ │ + notifyObservers()    │
+ └────────────────────────┘
             │
     ┌───────┴────────┐
     │                │
@@ -253,8 +253,6 @@ class WeatherStation implements Subject {
     * Observers: Users, Admins
     * Notify observers on changes.
 
-✅ If you want, I can build **complete code** for this MAANG-level interview problem in Java.
-
 ---
 
 ## 🔥 **Frequently Asked in Interviews**
@@ -476,8 +474,8 @@ Notification to Aman [aman@example.com]: Price dropped for iPhone 15 Pro Max: �
 
 ---
 
-✅ **MAANG-grade answer = SOLID explanation + scalable solution + trade-offs**
-You are now fully ready for **Observer Pattern system design interview rounds** 🎯
+✅ **MAANG-grade answer = SOLID explanation + scalable solution + trade-offs**<br>
+You are now fully ready for **Observer Pattern system design interview rounds** 🎯<br>
 
 ---
 Excellent! 🚀 Let's go **Next Level** — this will make you MAANG-grade ready 💯
@@ -506,11 +504,11 @@ Excellent! 🚀 Let's go **Next Level** — this will make you MAANG-grade ready
 
 # ⚠ **When NOT to Use Observer Pattern?**
 
-1️⃣ When system needs to scale to multiple servers
-2️⃣ When high availability and durability is critical
-3️⃣ When we need asynchronous delivery
-4️⃣ When events must survive process restarts
-5️⃣ When observer count is huge (millions)
+1️⃣ When system needs to scale to multiple servers<br>
+2️⃣ When high availability and durability is critical<br>
+3️⃣ When we need asynchronous delivery<br>
+4️⃣ When events must survive process restarts<br>
+5️⃣ When observer count is huge (millions)<br>
 
 👉 In such cases: Use **Pub-Sub** architecture.
 
@@ -580,10 +578,10 @@ Very common in real-time trading systems, inventory flash sales, payment gateway
 
 # 🔥 **Next Level LLD Challenge for You (MAANG-ready)**
 
-👉 **Design a "Live Bidding System" using Observer pattern**
-✅ Users watching an auction
-✅ Get real-time updates on price changes
-✅ Scalable to thousands of bidders
+👉 **Design a "Live Bidding System" using Observer pattern**<br>
+✅ Users watching an auction<br>
+✅ Get real-time updates on price changes<br>
+✅ Scalable to thousands of bidders<br>
 
 ---
 

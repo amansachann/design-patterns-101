@@ -18,11 +18,11 @@
 
 # 🎯 **When Behavioral Patterns Are Used**
 
-✅ Complex interactions between objects
-✅ Dynamic run-time decisions
-✅ Event-driven systems
-✅ Workflow orchestration
-✅ UI frameworks, messaging systems, distributed systems
+✅ Complex interactions between objects<br>
+✅ Dynamic run-time decisions<br>
+✅ Event-driven systems<br>
+✅ Workflow orchestration<br>
+✅ UI frameworks, messaging systems, distributed systems<br>
 
 ---
 

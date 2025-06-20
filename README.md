@@ -1,5 +1,5 @@
 # 🛠️ **Design Patterns 101**
-git 
+
 Let’s go from **zero to MAANG-level clarity** on **Design Patterns** 🚀
 
 ---
@@ -41,11 +41,11 @@ Let’s go from **zero to MAANG-level clarity** on **Design Patterns** 🚀
 
 # 🧠 **When Do You Use Design Patterns?**
 
-✅ When your system needs flexibility
-✅ When objects interact in complex ways
-✅ When system needs to be scalable & maintainable
-✅ When multiple developers work on the same codebase
-✅ When you want to sound like a rockstar in interviews 😄
+✅ When your system needs flexibility<br>
+✅ When objects interact in complex ways<br>
+✅ When system needs to be scalable & maintainable<br>
+✅ When multiple developers work on the same codebase<br>
+✅ When you want to sound like a rockstar in interviews 😄<br>
 
 ---
 
@@ -80,8 +80,8 @@ Let’s go from **zero to MAANG-level clarity** on **Design Patterns** 🚀
 
 # ⚠ **Important:**
 
-**Design patterns are NOT frameworks or libraries.**
-They are **concepts and ideas** you apply in your code.
+**Design patterns are NOT frameworks or libraries.**<br>
+They are **concepts and ideas** you apply in your code.<br>
 
 ---
 
@@ -129,7 +129,7 @@ Design Patterns are generally divided into 3 categories:
 ```plaintext
                 Design Patterns
                       |
-    -------------------------------------------------
+    ------------------------------------------------
     |                     |                        |
 Creational           Structural              Behavioral
     |                     |                        |
@@ -140,10 +140,10 @@ Prototype             Facade                   Chain of Resp.
 Abstract Factory      Bridge                   Command
                       Composite                Memento
                       Flyweight                Mediator
-                                                Visitor
-                                                Template Method
-                                                Interpreter
-                                                Iterator
+                                               Visitor
+                                               Template Method
+                                               Interpreter
+                                               Iterator
 ```
 
 ---
@@ -173,7 +173,7 @@ Abstract Factory      Bridge                   Command
 
 ---
 
-✅ You are now at **MAANG Pattern Foundation Level** 🔥
-👉 The *next step* is **Deep Dive With Full Code + UML + Real-World Usage**.
+✅ You are now at **MAANG Pattern Foundation Level** 🔥 <br>
+👉 The *next step* is **Deep Dive With Full Code + UML + Real-World Usage**<br>.
 
 ---

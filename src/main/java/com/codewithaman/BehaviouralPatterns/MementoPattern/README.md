@@ -1,4 +1,4 @@
-# 🎯 **Memento Design Pattern — At a Glance**
+# 🎯 **Memento Design Pattern **
 
 | 🔧                     | Details                                                                        |
 | ---------------------- | ------------------------------------------------------------------------------ |
@@ -395,8 +395,8 @@ class VersionControl {
 
 ---
 🔥 Excellent choice!
-Now you're entering **Fintech / Banking / MAANG-level distributed system design** territory 🚀
-Let’s build a **Distributed Transaction Rollback System using Memento Pattern** 🎯
+Now you're entering **Fintech / Banking / MAANG-level distributed system design** territory 🚀<br>
+Let’s build a **Distributed Transaction Rollback System using Memento Pattern** 🎯<br>
 
 ---
 
