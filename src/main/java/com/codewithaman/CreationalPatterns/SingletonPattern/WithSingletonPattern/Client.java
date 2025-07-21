@@ -18,7 +18,7 @@ public class Client {
         BillPoughSingleton billPoughSingletonCopy = BillPoughSingleton.getInstance();
         System.out.println(billPoughSingleton == billPoughSingletonCopy);
 
-        // Enum based singleton
+        // Enum-based singleton
         EnumBasedSingleton enumBasedSingleton = EnumBasedSingleton.INSTANCE;
         EnumBasedSingleton enumBasedSingletonCopy = EnumBasedSingleton.INSTANCE;
         System.out.println(enumBasedSingleton == enumBasedSingletonCopy);
