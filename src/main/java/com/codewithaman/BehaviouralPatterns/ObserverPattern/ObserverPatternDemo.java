@@ -85,11 +85,15 @@ class WeatherStationIn implements Subject {
 public class ObserverPatternDemo {
 
     public static void main(String[] args) {
+        // Create Subject
         WeatherStationIn weatherStation = new WeatherStationIn();
+        // Create Observers
         DisplayDeviceIn displayDevice = new DisplayDeviceIn();
         MobileDeviceIn mobileDevice = new MobileDeviceIn();
+        // Add observers to subject
         weatherStation.addObserver(displayDevice);
         weatherStation.addObserver(mobileDevice);
+        // Implementation
         weatherStation.setTemperature(20);
         weatherStation.removeObserver(displayDevice);
         weatherStation.setTemperature(30);
