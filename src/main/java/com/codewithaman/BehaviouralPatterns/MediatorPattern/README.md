@@ -157,25 +157,25 @@ Vikas receives from Sachin: Hi Aman!
 
 # 🧠 **When to Use Mediator Pattern**
 
-✅ When multiple components interact in complex ways
-✅ When you want to **reduce tight coupling**
-✅ When components need **centralized coordination**
+✅ When multiple components interact in complex ways  
+✅ When you want to **reduce tight coupling**  
+✅ When components need **centralized coordination**  
 
 ---
 
 # 💪 Benefits
 
-* ✅ Promotes **loose coupling**
-* ✅ Centralized control & orchestration
-* ✅ Easy to **extend and maintain**
-* ✅ Great for **chat apps, UI frameworks, traffic controllers**
+* ✅ Promotes **loose coupling**  
+* ✅ Centralized control & orchestration  
+* ✅ Easy to **extend and maintain**  
+* ✅ Great for **chat apps, UI frameworks, traffic controllers**  
 
 ---
 
 # ⚠ Disadvantages
 
-* Can become **monolithic** if mediator becomes too large
-* Single point of failure if not designed carefully
+* Can become **monolithic** if mediator becomes too large  
+* Single point of failure if not designed carefully  
 
 ---
 
@@ -344,9 +344,9 @@ QF-303 received: Holding pattern at 3000ft
 
 # 🏁 Summary
 
-✅ Use **Mediator** when multiple objects need to interact **indirectly**
-✅ Use **Observer** when changes in one object should notify others
-✅ In **system design**, mediator = **central controller** (like ATC, Notification Center)
-✅ In **event-driven systems**, prefer **Observer → Pub/Sub** with messaging systems (Kafka, SNS, etc.)
+✅ Use **Mediator** when multiple objects need to interact **indirectly**  
+✅ Use **Observer** when changes in one object should notify others  
+✅ In **system design**, mediator = **central controller** (like ATC, Notification Center)  
+✅ In **event-driven systems**, prefer **Observer → Pub/Sub** with messaging systems (Kafka, SNS, etc.)  
 
 ---

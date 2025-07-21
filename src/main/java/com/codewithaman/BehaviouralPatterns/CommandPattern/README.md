@@ -176,9 +176,9 @@ public class CommandPatternDemo {
 
 # 🔥 **When to Use Command Pattern**
 
-✅ When you want to **queue, undo, or log requests**
-✅ When different **senders and receivers** shouldn't be tightly coupled
-✅ When operations need to be **parameterized**
+✅ When you want to **queue, undo, or log requests**  
+✅ When different **senders and receivers** shouldn't be tightly coupled  
+✅ When operations need to be **parameterized**  
 
 ---
 
@@ -297,17 +297,17 @@ public class JobSchedulerDemo {
 
 # 🧠 **Benefits of Command Pattern**
 
-✅ Decouples **sender and receiver**
-✅ Easy to add **undo/redo**
-✅ Allows for **logging and replay**
-✅ **Parameterizable**, **queueable**, and **serializable**
+✅ Decouples **sender and receiver**  
+✅ Easy to add **undo/redo**  
+✅ Allows for **logging and replay**  
+✅ **Parameterizable**, **queueable**, and **serializable**  
 
 ---
 
 # ⚠ Disadvantages
 
-❌ Adds **boilerplate code** (many small classes)
-❌ Too many commands = maintenance complexity
+❌ Adds **boilerplate code** (many small classes)  
+❌ Too many commands = maintenance complexity  
 
 ---
 
@@ -336,11 +336,11 @@ public class JobSchedulerDemo {
 
 # 💥 MAANG Interview Tips
 
-✅ Explain with remote control / job scheduler analogy
-✅ Mention benefits: **undo, retry, queue, log**
-✅ Say it promotes **Open/Closed Principle**
-✅ Useful in **transactional & distributed systems**
-✅ Combine with other patterns (Factory, Composite)
+✅ Explain with remote control / job scheduler analogy  
+✅ Mention benefits: **undo, retry, queue, log**  
+✅ Say it promotes **Open/Closed Principle**  
+✅ Useful in **transactional & distributed systems**  
+✅ Combine with other patterns (Factory, Composite)  
 
 ---
 
@@ -358,11 +358,11 @@ public class JobSchedulerDemo {
 
 # ✅ Summary
 
-* **Command Pattern** = encapsulate operations as objects
-* Perfect for **undo, redo, queuing, logging**
-* Used in **UI frameworks, job schedulers, remote control systems**
-* Adds flexibility and testability
-* Can scale into **message-driven architectures** with **Kafka, RabbitMQ**
+* **Command Pattern** = encapsulate operations as objects  
+* Perfect for **undo, redo, queuing, logging**  
+* Used in **UI frameworks, job schedulers, remote control systems**  
+* Adds flexibility and testability  
+* Can scale into **message-driven architectures** with **Kafka, RabbitMQ**  
 
 ---
 

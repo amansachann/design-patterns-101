@@ -45,7 +45,7 @@
 > A music playlist is a collection.
 > You use the **next()**, **previous()**, **hasNext()** buttons to navigate.
 
-✅ Playlist = Aggregate
+✅ Playlist = Aggregate  
 ✅ Buttons = Iterator
 
 ---
@@ -231,10 +231,10 @@ You need to design a **custom feed system** (like LinkedIn/Twitter) that:
 
 ## 🧠 Benefits in System Design
 
-✅ Decouples traversal from logic
-✅ Allows pre-fetching or lazy loading
-✅ Adds filters, limits, pagination easily
-✅ Used heavily in **microservices** & **streaming systems**
+✅ Decouples traversal from logic  
+✅ Allows pre-fetching or lazy loading  
+✅ Adds filters, limits, pagination easily  
+✅ Used heavily in **microservices** & **streaming systems**  
 
 ---
 
@@ -252,24 +252,24 @@ You need to design a **custom feed system** (like LinkedIn/Twitter) that:
 
 # ✅ Benefits of Iterator Pattern
 
-✅ Promotes **Single Responsibility Principle**
-✅ Abstracts **how** traversal is done
-✅ Uniform interface for different collections
-✅ Easily extendable (e.g., reverse, skip, filter)
+✅ Promotes **Single Responsibility Principle**  
+✅ Abstracts **how** traversal is done  
+✅ Uniform interface for different collections  
+✅ Easily extendable (e.g., reverse, skip, filter)  
 
 ---
 
 # ⚠ Disadvantages
 
-❌ Additional classes
-❌ Not ideal for **very large datasets** unless lazy loading or pagination used
+❌ Additional classes  
+❌ Not ideal for **very large datasets** unless lazy loading or pagination used  
 
 ---
 
 # 🔥 Interview Insights
 
-✅ Used internally in all **Collection APIs**
-✅ Frequently asked in **LLD interviews**:
+✅ Used internally in all **Collection APIs**  
+✅ Frequently asked in **LLD interviews**:  
 
 > “Design your own ArrayList and support custom iterators.”
 
@@ -292,10 +292,10 @@ You need to design a **custom feed system** (like LinkedIn/Twitter) that:
 
 # 🏁 Summary
 
-✅ Iterator Pattern = access collection items **one by one**
-✅ Hides **internal structure**, supports custom iteration logic
-✅ Supports **filtering**, **pagination**, **lazy loading**
-✅ Used in **collections**, **feeds**, **file explorers**, **database cursors**
+✅ Iterator Pattern = access collection items **one by one**   
+✅ Hides **internal structure**, supports custom iteration logic  
+✅ Supports **filtering**, **pagination**, **lazy loading**  
+✅ Used in **collections**, **feeds**, **file explorers**, **database cursors**  
 
 ---
 
